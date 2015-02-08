@@ -1,0 +1,27 @@
+    //  $(".text").val("");
+
+    //  $(".sub-container").html(userMessage)
+    //  var prevState = $(".sub-container").html();
+
+
+    //$(".sub-container").html(prevState + "<br>" + newMessage);
+
+  //adding more//
+
+ // $('section').on('click', '.delete-message', function (event) {
+ //    event.preventDefault();
+ //    var taskId = $(this).closest('article').data('taskid');
+ //    console.log(taskId);
+ //    chat.deleteMessage(taskId);
+//  });
+
+
+
+
+    //  chat.renderMessages();
+  },
+  //    console.log(message);
+
+
+      // Clears the message field on submit
+//      $('input.message-input').val('');

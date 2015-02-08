@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FunChat</title>
+
+
+  <link rel="stylesheet" href="bower_components/foundation/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link href="https://fontastic.s3.amazonaws.com/4jnJmN6JSySMKE659aoMQT/icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+
+    <script type="html/template" id="Tmpl">
+    <article class="delete-messages" data-chatid="<%= _id %>">
+    <h1><%= _id %></h1>
+  //  <p><%= message %></p>
+    </article>
+  </script>
+</head>
+<body>
+  <!--Top of page header-->
+    <header>
+      <h1>Hello</h1>
+    </header>
+  <!--Row containing the main message board and the 2 asides-->
+
+  <!--The left column-->
+  <section class=chatbox>
+    <aside class="rooms">
+      <h2>ROOMS</h2>
+      <h2>PEOPLE</h2>
+    </aside>
+
+    <!--Main message board-->
+    <div class="container">
+      <article id="message-board">
+        <p></p>
+      </article>
+        <form action="" class="createMessage">
+         <h2 name="userId"></h2>
+         <button class="deleteTask">Delete</button>
+        <input type="text"  id="userInput" name="userName" placeholder="Type your username here">
+        <input type="text"  id="userId" name="messages" placeholder="Type your message here">
+        <button submit="submit" class="btn btn-primary btn-lg">Send</button>
+        </form>
+      </div>
+
+    <!--Right column-->
+    <aside class="active">active users with notificaion buttons</aside>
+  </section>
+
+<script src="bower_components/foundation/js/vendor/jquery.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+
+<script>
+  $(document).foundation();
+</script>
+</script>
+
+
+   <script src="bower_components/jquery/dist/jquery.js"></script>
+   <script src="bower_components/underscore/underscore.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>
